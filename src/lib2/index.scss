@@ -1,0 +1,9 @@
+$white: #FDFFFC !default;
+$font-size: 14px !default;
+$color: #222 !default;
+
+p {
+  font-size: $font-size;
+  color: $color;
+  background-color: $white;
+}

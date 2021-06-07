@@ -1,0 +1,12 @@
+$new-black: #111 !default;
+
+@forward './lib1' with (
+  $black: $new-black !default,
+  $border-radius: 0.1rem !default
+);
+
+@forward './lib2' with (
+  $white: #EEF0ED !default,
+  $font-size: 15px !default,
+  $color: #222 !default,
+);
